@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'projetoNovo';
+
+pratos: any [] = [
+
+{nome: 'Macarronada'},
+{nome: 'Feijoada'},
+{nome: 'Peixada'},
+{nome: 'Arroz de Forno'},
+{nome: 'Carne Assada'}
+
+]
+
 }
